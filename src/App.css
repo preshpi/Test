@@ -6,7 +6,6 @@
   padding:0;
   font-family: 'poppins', sans-serif;
 }
-
  .dashboard, .employee, .products, .salary, .calendar{
   display: flex;
   height: 100vh;
@@ -75,4 +74,14 @@
   grid-row: 3/4;
   font-weight: 400;
   color: #ffffff;
+}
+
+.half-width{
+  margin-left:270px;
+}
+.full-width{
+  transition: 850ms;
+}
+.app{
+  transition: 850ms;
 }
